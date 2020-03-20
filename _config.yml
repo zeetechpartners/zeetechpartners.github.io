@@ -1,1 +1,15 @@
-theme: jekyll-theme-cayman
+title: Zee Tax Professionals
+# description: 
+email: "azeem.rao@zeetechpartners.com"
+copyright: Copyright &copy; 2020 Zee Tax Professionals. All rights reserved.
+# google-analytics: 
+
+# twitter: ""
+# instagram: ""
+# youtube: ""
+# facebook: ""
+
+plugins: 
+    - jekyll-feed
+    - jekyll-sitemap
+    - jekyll-seo-tag
