@@ -26,6 +26,9 @@
         gtag('config', '');
     </script>
     
+    <!-- Install Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
     <!-- Install Favicon (Browser Tab Icon) -->
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
@@ -56,9 +59,21 @@
 
     <style>
 
+        * {
+
+            font-family: 'Open Sans', sans-serif;
+
+        }
+
         section, nav, footer {
 
             padding: 1% 10%!important;
+
+        }
+
+        h1, h2, h3, h4, h5, h6, nav {
+
+            font-family: 'PT Sans', sans-serif;
 
         }
 
@@ -77,6 +92,102 @@
         .text-primary {
 
             color: #3861C5!important;
+
+        }
+
+        .social span {
+
+            background-color: initial;
+            display: inline-block;
+            border: 2px solid #3861C5;
+            color: #3861C5;
+            font-size: 1.6em;
+            padding: 5px;
+            width: 40px;
+            border-radius: 100%;
+            transition: all 100ms;
+
+        }
+
+        /*
+        .fa-twitter {
+            border: 2px solid #00acee;
+            color: #00acee;
+        }
+        */
+
+        .fa-twitter:hover {
+
+            background-color: #00acee;
+            transition: background-color 100ms linear;
+
+            
+            color: white;
+            transition: color 100ms linear;
+            
+
+        }
+
+        /*
+        .fa-instagram {
+            border: 2px solid purple;
+            color: purple;
+        }
+        */
+
+        .fa-instagram:hover {
+
+            background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+            transition: background 100ms linear;
+
+            
+            color: white;
+            transition: color 100ms linear;
+            
+
+        }
+
+        /*
+        .fa-youtube {
+            border: 2px solid #c4302b;
+            color: #c4302b;
+        }
+        */
+
+        .fa-youtube:hover {
+
+            background-color: #c4302b;
+            transition: background-color 100ms linear;
+
+            
+            color: white;
+            transition: color 100ms linear;
+            
+
+        }
+
+        /*
+        .fa-facebook {
+            border: 2px solid #3b5998;
+            color: #3b5998;
+        }
+        */
+
+        .fa-facebook:hover {
+
+            background-color: #3b5998;
+            transition: background-color 100ms linear;
+
+            
+            color: white;
+            transition: color 100ms linear;
+            
+
+        }
+
+        .btn {
+
+            text-transform: uppercase;
 
         }
 
@@ -108,29 +219,25 @@
 
     </div>
 
-</nav><section id="home" class="jumbotron-fluid" style="
-    background-image: url(/assets/images/Background.svg); 
-    background-repeat: no-repeat; 
-    margin-top: -1px;
-    background-size: cover;
-    height: 600px; 
-    width: 100%;">
+</nav><section id="home" class="jumbotron-fluid bg-primary">
 
-    <div class="row">
+    <div class="row py-4">
 
-        <div class="text-white container pt-5 col-md-8">
+        <div class="text-white container py-4 col-md-8">
 
-            <h1 style="color: #ccc;" class="pb-2 display-4">YOU HAVE TAXES</h1>
+            <h1 style="color: #ccc;" class="pb-2">YOU HAVE TAXES</h1>
 
-            <h1 style="color: #e5e5e5;" class="pb-2 display-4">WE HAVE <span class="font-weight-bold">SOLUTIONS</span></h1>
+            <h1 style="color: #e5e5e5;" class="pb-2">WE HAVE <span class="font-weight-bold">SOLUTIONS</span></h1>
 
-            <h1 class="text-white pb-2 display-4">WE ARE <span class="font-weight-bold">ZEE TAX PROS</span></h1>
+            <h1 class="text-white pb-2">WE ARE <span class="font-weight-bold">ZEE TAX PROS</span></h1>
+
+            <a href="#" class="btn btn-outline-light rounded-pill shadow my-3 p-2 px-3">Let's Talk</a>
             
         </div>
 
         <div class="col-md-4">
 
-            <img src="/assets/images/undraw_file_searching_duff.png" class="img-fluid">
+            <img src="/assets/images/undraw_file_searching_duff.png" class="img-fluid pt-2 pb-5">
 
         </div>
 
@@ -140,16 +247,16 @@
 
 <section class="jumbotron-fluid"></section>
 
-    </body><footer class="jumbotron-fluid text-light text-center p-5 bg-dark">
+    </body><footer class="jumbotron-fluid text-primary text-center p-5 bg-light">
 
-    <div class="container mb-4"><div class="social">
+    <div class="container mb-4 pt-5"><div class="social">
     <a href="https://twitter.com/" target="_blank"><span class="fa fa-fw fa-twitter"></span></a>
     <a href="https://www.instagram.com/" target="_blank"><span class="fa fa-fw fa-instagram"></span></a>
     <a href="https://www.youtube.com/channel/" target="_blank"><span class="fa fa-fw fa-youtube"></span></a>
     <a href="https://www.facebook.com/" target="_blank"><span class="fa fa-fw fa-facebook"></span></a>
 </div></div>
 
-    <div class="container">
+    <div class="container pb-5">
 
         Copyright &copy; 2020 Zee Tax Professionals. All rights reserved.
 
