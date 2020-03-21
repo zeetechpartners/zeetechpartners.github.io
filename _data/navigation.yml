@@ -1,2 +1,10 @@
 - name: home
   link: /
+- name: about
+  link: "#about"
+- name: what we do
+  link: "#what-we-do"
+- name: testimonials
+  link: "#testimonials"
+- name: contact
+  link: "#contact"
